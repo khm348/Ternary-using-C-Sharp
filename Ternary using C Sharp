@@ -1,0 +1,6 @@
+public string TestMethod(decimal? Type)
+        {
+            string MediumType = Type == 1 ? "FF" : Type == 2 ? "Dail" : Type == 3 ? "Both" : "";
+
+            return MediumType;
+        }
